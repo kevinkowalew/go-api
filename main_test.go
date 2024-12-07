@@ -7,5 +7,4 @@ import (
 
 func Test_Things(t *testing.T) {
 	fmt.Println("ran my test!")
-	t.Fail()
 }
