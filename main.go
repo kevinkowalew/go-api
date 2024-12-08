@@ -10,7 +10,7 @@ func main() {
 		w.Write([]byte("hello"))
 	})
 
-	fmt.Print("Started API")
+	fmt.Println("Started API")
 
 	if err := http.ListenAndServe(":8080", nil); err != nil {
 		panic(err)
